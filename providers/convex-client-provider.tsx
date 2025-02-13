@@ -9,10 +9,15 @@ import {
 
 } from "convex/react";
 import { Loading } from "@/components/ui/auth/loading";
+import { createClient } from '@supabase/supabase-js'
+
+
+
 
 interface ConvexClientProviderProps {
     children: React.ReactNode;
 };
+
 
 const convexUrl = process.env.NEXT_PUBLIC_CONVEX_URL!;
 const convex = new ConvexReactClient(convexUrl);
