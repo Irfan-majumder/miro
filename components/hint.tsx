@@ -30,7 +30,7 @@ export const Hint = ({
             <TooltipTrigger>
                 {children}
             </TooltipTrigger>
-            <TooltipContent className="text-white bg-black
+            <TooltipContent className="text-white bg-black 
              border-black border-opacity-10 p-1 rounded-md opacity-75"
 
                 side={side}
